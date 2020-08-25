@@ -25,6 +25,26 @@ p {
   color: #fff;
 }
 
+.subtitulo {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  line-height: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subtitulo::after {
+  background: #000;
+  content: "";
+  display: block;
+  height: 3px;
+  margin: 8px auto;
+  width: 60px;
+}
+
 /*Header*/
 .header {
   background: #fec63e;
@@ -104,4 +124,52 @@ p {
   font-weight: bold;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+/*Produtos*/
+
+.produtos {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.produtos-lista li {
+  background: #fec63e;
+}
+
+.produtos-lista li h3 {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  line-height: 25px;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.produtos-lista li h3::after {
+  background: #000;
+  content: "";
+  display: block;
+  height: 3px;
+  margin: 2px auto;
+  width: 60px;
+}
+
+.produtos-lista li p {
+  padding: 10px 20px 20px 20px;
+}
+
+.produtos-icone {
+  background: #000;
+  padding: 20px;
+}
+
+.cta {
+  clear: both;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.cta p {
+  margin-bottom: 30px;
 }
