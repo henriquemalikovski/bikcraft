@@ -173,3 +173,23 @@ p {
 .cta p {
   margin-bottom: 30px;
 }
+
+/*Portfolio*/
+
+.portfolio {
+  background: #000;
+  padding: 40px 0;
+  width: 100%;
+}
+.portfolio .subtitulo {
+  color: #fec63e;
+}
+.portfolio .subtitulo::after {
+  background: #fec63e;
+}
+.portfolio .cta p {
+  color: #fff;
+}
+.portfolio-lista li:last-child {
+  margin-top: 20px;
+}
