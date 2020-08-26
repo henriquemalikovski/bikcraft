@@ -168,6 +168,10 @@ img {
   padding: 20px;
 }
 
+.produtos-icone img {
+  display: inline;
+}
+
 .cta {
   clear: both;
   padding-top: 40px;
