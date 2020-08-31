@@ -49,6 +49,26 @@ img {
   width: 60px;
 }
 
+.subtitulo-interno {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  line-height: 30px;
+  margin-bottom: 20px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.subtitulo-interno::after {
+  background: #000;
+  content: "";
+  display: block;
+  height: 3px;
+  margin: 8px 0;
+  width: 60px;
+}
+
 /*Header*/
 .header {
   background: #fec63e;
@@ -79,6 +99,10 @@ img {
 }
 
 .header_menu ul li a:hover {
+  color: #fff;
+}
+
+.header_menu ul li a.menu-ativo {
   color: #fff;
 }
 
@@ -128,6 +152,32 @@ img {
   font-weight: bold;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+/*Introdução interna*/
+.introducao-interna {
+  background-size: cover;
+  color: #fff;
+  height: 160px;
+  margin-top: 92px;
+  padding-top: 35px;
+  text-align: center;
+  width: 100%;
+}
+
+.introducao-interna h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.introducao-interna h1::after {
+  background: #fff;
+  content: "";
+  display: block;
+  height: 3px;
+  margin: 6px auto 10px auto;
+  width: 60px;
 }
 
 /*Produtos*/
@@ -207,9 +257,7 @@ img {
 .qualidade img {
   margin: 0 auto;
 }
-.qualidade-lista {
-  padding-top: 20px;
-}
+
 .qualidade::after {
   background: url("../img/linhas.svg") no-repeat center;
   content: "";
@@ -221,6 +269,12 @@ img {
   width: 634px;
   z-index: -1;
 }
+
+.qualidade-lista {
+  overflow: auto;
+  padding-top: 20px;
+}
+
 .qualidade-lista li {
   padding: 0 40px;
   text-align: center;
