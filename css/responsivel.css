@@ -128,4 +128,12 @@
   .orcamento-dados ul {
     padding: 0;
   }
+
+  .contato-form,
+  .contato-dados {
+    padding: 0;
+  }
+  .contato-dados ul li {
+    padding: 0;
+  }
 }

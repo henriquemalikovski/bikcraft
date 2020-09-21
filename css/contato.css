@@ -66,15 +66,12 @@
   font-family: Georgia, "Times New Roman", serif;
   font-size: 14px;
   padding: 10px 15px;
+  display: inline-block;
+  margin-right: 10px;
 }
 
 .contato-dados p {
   margin: 8px 0;
-}
-
-.contato-dados ul li {
-  display: inline-block;
-  margin-right: 10px;
 }
 
 .contato-dados ul li a {
