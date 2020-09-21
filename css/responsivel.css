@@ -55,7 +55,26 @@
     font-size: 36px;
   }
 
+  .introducao-interna {
+    margin-top: 0;
+  }
+
   .qualidade::after {
     display: none;
+  }
+
+  .header_menu ul li a.menu-ativo {
+    background-color: #000;
+  }
+
+  .missao-sobre p {
+    font-size: 14px;
+    line-height: 25px;
+    padding-right: 0;
+  }
+
+  .missao-sobre ul li {
+    font-size: 14px;
+    line-height: 30px;
   }
 }
