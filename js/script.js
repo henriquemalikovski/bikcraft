@@ -11,3 +11,7 @@ if (window.SimpleSlide) {
     time: 8000, // tempo de transição dos slides
   });
 }
+
+if (window.SimpleAnime) {
+  new SimpleAnime({});
+}
