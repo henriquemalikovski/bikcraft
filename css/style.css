@@ -370,3 +370,41 @@ img {
   padding: 20px 0;
   width: 100%;
 }
+
+.js [data-slide] {
+  position: relative;
+}
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 1.5s;
+  z-index: 1;
+}
+
+.js [data-slide-nav] {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.js [data-slide-nav] button {
+  background: #fff;
+  border: none;
+  border-radius: 6px;
+  display: inline-block;
+  height: 12px;
+  margin: 4px;
+  padding: 0;
+  overflow: hidden;
+  text-indent: -99px;
+  width: 12px;
+}
+
+.js [data-slide-nav] button.active {
+  background: #fec63e;
+}
