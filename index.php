@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bickcraft - Sua loja virtual de bicicletas</title>
+  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">
+
+  <script>
+    document.documentElement.classList.add("js");
+  </script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="grid-4">
+        <img src="img/bikcraft.svg" alt="Bickcraft">
+      </a>
+      <nav class="grid-12 header_menu">
+        <ul>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="portfolio.html">Portfólio</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="introducao">
+    <div class="container">
+      <h1 data-anime="400" class="fadeInDown">Bicicletas Feitas a Mão</h1>
+      <blockquote data-anime="800" class="fadeInDown quote-externo">
+        <p>“não tenha nada em sua casa que você não considere útil ou acredita ser bonito”</p>
+        <cite>William Morris</cite>
+      </blockquote>
+      <a data-anime="1200" href="produtos.html" class="btn">Orçamento</a>
+    </div>
+  </section>
+
+  <section data-anime="1600" class="fadeInDown produtos container">
+    <h2 class="subtitulo">Produtos</h2>
+    <ul class="produtos-lista">
+      <li class="grid-1-3">
+        <div class="produtos-icone">
+          <img src="img/passeio.svg" alt="bikcraft passeio">
+        </div>
+        <h3>Passeio</h3>
+        <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.</p>
+      </li>
+
+      <li class="grid-1-3">
+        <div class="produtos-icone">
+          <img src="img/esporte.svg" alt="bikcraft passeio">
+        </div>
+        <h3>esporte</h3>
+        <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.</p>
+      </li>
+
+      <li class="grid-1-3">
+        <div class="produtos-icone">
+          <img src="img/retro.svg" alt="bikcraft passeio">
+        </div>
+        <h3>Retrô</h3>
+        <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.</p>
+      </li>
+    </ul>
+
+    <div class="cta">
+      <p>Clique aqui para saber mais detalhes dos produtos</p>
+      <a class="btn" href="produtos.html">produtos</a>
+    </div>
+  </section>
+  <!--Fecha produtos-->>
+
+  <section class="portfolio">
+    <div class="container">
+      <h2 class="subtitulo">Portfólio</h2>
+      <ul class="portfolio-lista">
+        <li class="grid-8"><img src="img/home-retro.jpg" alt="bicicleta retro"></li>
+        <li class="grid-8"><img src="img/home-esporte.jpg" alt=""></li>
+        <li class="grid-16"><img src="img/home-passeio.jpg" alt=""></li>
+      </ul>
+      <div class="cta">
+        <p>Clique aqui para saber mais detalhes do nosso portfólio</p>
+        <a class="btn" href="portfolio.html">Portfólio</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="qualidade container">
+    <h2 class="subtitulo">Qualidade</h2>
+    <img src="img/bikcraft-qualidade.svg" alt="">
+    <ul class="qualidade-lista">
+      <li class="grid-1-3">
+        <h3>Durabilidade</h3>
+        <p> Ainda assim, existem dúvidas a respeito de como a necessidade de renovação renovação renovação </p>
+      </li>
+      <li class="grid-1-3">
+        <h3>Design</h3>
+        <p> Ainda assim, existem dúvidas a respeito de como a necessidade de renovação renovação renovação </p>
+      </li>
+      <li class="grid-1-3">
+        <h3>Sustentabilidade</h3>
+        <p> Ainda assim, existem dúvidas a respeito de como a necessidade de renovação renovação renovação </p>
+      </li>
+    </ul>
+    <div class="cta">
+      <p>Conheça mais sobre a nosssa história</p>
+      <a class="btn" href="sobre.html">sobre</a>
+    </div>
+  </section>
+
+  <section class="quebra">
+    <div class="container">
+      <blockquote class="quote-externo">
+        <p>"o verdadeiro segredo da felicidade esta em ter um genuíno interesse por todos os detalhes da vida cotidiana"</p>
+        <cite>William Morris</cite>
+      </blockquote>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="grid-8 footer-historia">
+          <h3>Nossa História</h3>
+          <p> Lorem Ipsum tem vindo a ser o texto padrão usado por estas desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime livro. Este </p>
+        </div>
+
+        <div class="grid-4 footer-contato">
+          <h3>Contato</h3>
+          <ul>
+            <li>51 995252540</li>
+            <li>hmalikovski@gmail.com</li>
+            <li>Lajeado - RS</li>
+          </ul>
+        </div>
+
+        <div class="grid-4 footer-redes">
+          <h3>Redes Sociais</h3>
+          <ul>
+            <li><a href="https://facebook.com" target="_blank"><img src="img/facebook.svg" alt=""></a></li>
+            <li><a href="https://instagram.com" target="_blank"><img src="img/instagram.svg" alt=""></a></li>
+            <li><a href="https://twitter.com" target="_blank"><img src="img/twitter.svg" alt=""></a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <div class="copy">
+      <div class="container">
+        <p class="grid-16">
+          Bickcraft 2020 - Todos os direitos reservados
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
