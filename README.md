@@ -1,3 +1,6 @@
-# bikcraft
+# Bikecraft
+## Site desenvolvido para o curso de Web Design da Origamid
 
-Projeto sendo desenvolvido para o curso de Web Desing Completo da Origamid
+![Badge](https://img.shields.io/badge/HTML-html-green) 
+![Badge](https://img.shields.io/badge/CSS-css-blue)
+![Badge](https://img.shields.io/badge/JavaScript-javascript-yellow)
