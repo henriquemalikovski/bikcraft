@@ -1,10 +1,8 @@
 <div align="center">
     <h1 style="border: none; !important">
         Projeto Bikcraft
+        <p style="font-size: 22px;">Site desenvolvido para o curso de <a href="https://www.origamid.com/curso/web-design-completo/">Web Design da Origamid</a></p>
     </h1>
-    <h2>
-        Site desenvolvido para o curso de <a href="https://www.origamid.com/curso/web-design-completo/">Web Design da Origamid</a>
-    </h2>
     <img src="https://img.shields.io/github/languages/top/henriquemalikovski/bikcraft?style=for-the-badge">
     <img src="https://img.shields.io/badge/-html-E34F26?logo=HTML5&logoColor=white&style=for-the-badge">
     <img src="https://img.shields.io/badge/-css-1572B6?logo=CSS3&logoColor=white&style=for-the-badge">
