@@ -1,3 +1,7 @@
+<h1 align="center">
+    Projeto Bikcraft
+</h1>
+
 # [Bikecraft](bikcraft.henriquemalikovski.com.br)
 ## Site desenvolvido para o curso de [Web Design da Origamid](https://www.origamid.com/curso/web-design-completo/)
 
