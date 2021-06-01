@@ -1,9 +1,11 @@
-<h1 align="center">
-    Projeto Bikcraft
-</h1>
-
-# [Bikecraft](bikcraft.henriquemalikovski.com.br)
-## Site desenvolvido para o curso de [Web Design da Origamid](https://www.origamid.com/curso/web-design-completo/)
+<div align="center">
+    <h1 border="none">
+        Projeto Bikcraft
+    </h1>
+    <h2>
+        Site desenvolvido para o curso de <a href="https://www.origamid.com/curso/web-design-completo/">Web Design da Origamid</a>
+    </h2>
+</div>
 
 ![Badge](https://img.shields.io/github/languages/top/henriquemalikovski/bikcraft?style=for-the-badge) 
 ![Badge](https://img.shields.io/badge/-html-E34F26?logo=HTML5&logoColor=white&style=for-the-badge)
