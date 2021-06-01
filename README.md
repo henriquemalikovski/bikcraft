@@ -4,6 +4,7 @@
 ![Badge](https://img.shields.io/github/languages/top/henriquemalikovski/bikcraft?style=for-the-badge) 
 ![Badge](https://img.shields.io/badge/-html-E34F26?logo=HTML5&logoColor=white&style=for-the-badge)
 ![Badge](https://img.shields.io/badge/-css-1572B6?logo=CSS3&logoColor=white&style=for-the-badge)
+![Badge](https://img.shields.io/badge/-javascript-F7DF1E?logo=javascript&logoColor=white&style=for-the-badge)
 
 ### **O projeto desenvolveu as habilidades de Design, UI e UX Design, Tipografia, Grid, HTML5, CSS3, JavaScript, Usabilidades, Cores e Codificação**
 
