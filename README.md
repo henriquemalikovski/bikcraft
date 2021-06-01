@@ -2,8 +2,7 @@
 ## Site desenvolvido para o curso de [Web Design da Origamid](https://www.origamid.com/curso/web-design-completo/)
 
 ![Badge](https://img.shields.io/github/languages/top/henriquemalikovski/bikcraft?style=for-the-badge) 
-![Badge](https://img.shields.io/badge/CSS-css-blue)
-![Badge](https://img.shields.io/badge/JavaScript-javascript-yellow)
+![Badge](https://img.shields.io/github/languages/count/henriquemalikovski/bikcraft?style=for-the-badge)
 
 ### **O projeto desenvolveu as habilidades de Design, UI e UX Design, Tipografia, Grid, HTML5, CSS3, JavaScript, Usabilidades, Cores e Codificação**
 
